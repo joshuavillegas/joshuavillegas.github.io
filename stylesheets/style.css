@@ -609,6 +609,7 @@ div.image6Column:hover + .captionLink {
 
 	.image5Column {
 	padding-top: 50%;
+	margin-top: 25px;
 	}
 
 	#homepageTwo {
@@ -629,10 +630,34 @@ div.image6Column:hover + .captionLink {
 	padding-top: 90%;
 	}
 
+	.textblock3ColumnLeft {
+		margin-bottom: 25px;
+	}
+
 	/*Kanna*/
-	#kannaOne{
+/*	#kannaOne{
 		margin-top: 25px;
 	}
+
+	#aguacateTwo {
+		margin-top: 25px;
+	}
+
+	#carpenterTwo {
+		margin-top: 25px;
+	}
+
+	#koreanTwo {
+		margin-top: 25px;
+	}
+
+	#stackingTwo {
+		margin-top: 25px;
+	}
+
+	#tamagoTwo {
+		margin-top: 25px;
+	}*/
 }
 
 
