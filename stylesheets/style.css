@@ -2,6 +2,7 @@ body {
 	margin: 0;
 }
 
+
 .container-fluid {
 	max-width: 1400px;
 }
@@ -34,6 +35,23 @@ h3 {
 	letter-spacing: 0.2em;
 }
 
+h4 {
+	font-family: 'Crimson Text', Georgia, serif;
+	font-weight: 400;
+	line-height: 1.5em;
+	font-size: 20px;
+}
+
+h5{
+	text-transform: uppercase;
+	font-family: 'Crimson Text', Georgia, serif;
+	font-weight: 400;
+	letter-spacing: 0.3em;
+	color: #7E8287;
+	font-size: 12px;
+	margin: 0;
+}
+
 p {
 	font-family: 'Crimson Text', Georgia, serif;
 	font-weight: 400;
@@ -49,11 +67,22 @@ a {
 	letter-spacing: 0.3em;
 	color: #7E8287;
 	font-size: 12px;
+	-moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+li {
+	font-family: 'Crimson Text', Georgia, serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5em;
 }
 
 a:hover {
 	text-decoration: none;
-	color: black;
+	color: black !important;
 }
 
 a#navLink {
@@ -93,7 +122,7 @@ a#navLink {
 
 .vertical-center {
   min-height: 9%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 9vh; /* These two lines are counted as one :-)       */
+  min-height: 5vw; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
@@ -101,14 +130,55 @@ a#navLink {
 
 /*FOOTER*/
 
-.footer {
+/*.footer {
 	padding-left: 50px;
+	padding-right: 30px;
+}*/
+
+.row#footer {
+	margin: 0px 0px 50px 0px;
+}
+
+svg#instagram {
+	fill: #7E8287;
+	height: 18px;
+	margin: 0 auto; 
+	vertical-align: middle;
+	-moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+svg#instagram:hover {
+	fill: black;
 }
 
 /*HOMEPAGE*/
 
 .captionLink {
 	padding-top: 25px;
+/*    padding-left: 0;
+    margin-left: -15px;*/
+}
+
+.image12Column:hover a {
+	text-decoration: none;
+	color: black;
+}
+
+.image12Column:hover {
+	cursor: pointer;
+}
+
+div.image5Column:hover + .captionLink {
+	text-decoration: none;
+	color: black;
+}
+
+div.image6Column:hover + .captionLink {
+	text-decoration: none;
+	color: black;
 }
 
 .row#textRow {
@@ -123,7 +193,7 @@ a#navLink {
 /*IMAGES*/
 
 #logo {
-	background-image: url('../images/Logo@2x.png');
+	background-image: url('../images/JV_Logo.svg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -193,59 +263,79 @@ a#navLink {
 	margin-top: 35px;
 }
 
-/*.image12Column:hover {
-	background-size: 110%;
-	transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
-}*/
+
 
 #homepageOne.image12Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/tamago_large_02.jpg');
 }
 
 
 #homepageTwo.image5Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/aguacate_small_01.jpg');
 }
 
 #homepageThree.image12Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/carpenter_large_01.jpg');
 }
 
 #homepageFour.image6Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/stacking_small_01.jpg');
 }
 
 #homepageFive.image6Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/korean_small_03.jpg');
 }
 
 #homepageSix.image12Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/diningtable_1.png');
 }
 
 #homepageSeven.image6Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/toriichair_1.png');
 }
 
 #homepageEight.image6Column {
-	background-image: url('../images/DSC_0194.jpg');
-}
-
-#homepageNine.image12Column {
-	background-image: url('../images/DSC_0194.jpg');
-	margin-top: 35px;
+	background-image: url('../images/equipalechair_1.png');
 }
 
 
 /*DESIGNS*/
 
 #designsOne.design6Column {
-	background-image: url('../images/DSC_0194.jpg');
+	background-image: url('../images/aguacate_large_02.jpg');
+}
+
+#designsTwo {
+	background-image: url('../images/carpenter_large_01.jpg');
+}
+
+#designsThree {
+	background-image: url('../images/korean_large_01.jpg');
+}
+
+#designsFour {
+	background-image: url('../images/stacking_large_02.jpg');
+}
+
+#designsFive {
+	background-image: url('../images/tamago_large_02.jpg');
 }
 
 .designCaptionLink {
 	padding-top: 25px;
 	padding-left: 0px;
+}
+
+#designsSix {
+	background-image: url('../images/diningtable_2.png');
+}
+
+#designsSeven {
+	background-image: url('../images/toriichair_2.png');
+}
+
+#designsEight {
+	background-image: url('../images/equipalechair_2.png');
 }
 
 /*ABOUT*/
@@ -264,12 +354,152 @@ a#navLink {
 	padding-top: 40%;
 }
 
+/*Detail*/
+
+.detailTitle {
+	padding-left: 15px;
+}
+
+/*Aguacate*/
+
+#aguacateOne{
+	background-image: url('../images/aguacate_large_02.jpg');
+}
+
+#aguacateTwo{
+	background-image: url('../images/aguacate_small_01.jpg');
+}
+
+#aguacateThree{
+	background-image: url('../images/aguacate_large_01.jpg');
+}
+
+#aguacateFour{
+	background-image: url('../images/aguacate_small_02.jpg');
+}
+
+#aguacateFive{
+	background-image: url('../images/aguacate_small_03.jpg');
+}
+
+/*Carpenter*/
+
+#carpenterOne {
+	background-image: url('../images/carpenter_large_01.jpg');
+}
+
+#carpenterTwo{
+	background-image: url('../images/carpenter_small_03.jpg');
+}
+
+#carpenterThree{
+	background-image: url('../images/carpenter_large_02.jpg');
+}
+
+#carpenterFour{
+	background-image: url('../images/carpenter_small_01.jpg');
+}
+
+#carpenterFive{
+	background-image: url('../images/carpenter_small_02.jpg');
+}
+
+/*Korean Inspired Chest*/
+#koreanOne {
+	background-image: url('../images/korean_large_01.jpg');
+}
+
+#koreanTwo {
+	background-image: url('../images/korean_small_03.jpg');
+}
+
+#koreanThree {
+	background-image: url('../images/korean_large_02.jpg');
+}
+
+#koreanFour {
+	background-image: url('../images/korean_small_01.jpg');
+}
+
+#koreanFive {
+	background-image: url('../images/korean_small_02.jpg');
+}
+
+/*Stacking Cases*/
+#stackingOne {
+	background-image: url('../images/stacking_large_02.jpg');
+}
+
+#stackingTwo {
+	background-image: url('../images/stacking_small_01.jpg');
+}
+
+#stackingThree {
+	background-image: url('../images/stacking_large_01.jpg');
+}
+
+#stackingFour {
+	background-image: url('../images/stacking_small_02.jpg');
+}
+
+#stackingFive {
+	background-image: url('../images/stacking_small_03.jpg');
+}
+
+/*Tamago Table*/
+#tamagoOne {
+	background-image: url('../images/tamago_large_02.jpg');
+}
+
+#tamagoTwo {
+	background-image: url('../images/tamago_small_03.jpg');
+}
+
+#tamagoThree {
+	background-image: url('../images/tamago_large_01.jpg');
+}
+
+#tamagoFour {
+	background-image: url('../images/tamago_small_01.jpg');
+}
+
+#tamagoFive {
+	background-image: url('../images/tamago_small_02.jpg');
+}
+
+/*Kanna*/
+
+#kannaOne {
+	background-image: url('../images/tools_small_03.jpg');
+}
+
+#kannaTwo {
+	background-image: url('../images/tools_large_01.jpg');
+}
+
+#kannaThree {
+	background-image: url('../images/tools_small_01.jpg');
+}
+
+#kannaFour {
+	background-image: url('../images/tools_small_02.jpg');
+}
+
 @media screen and (min-width: 600px) and (max-width: 800px) {
 	/*NAVGIATION*/
 
 	#logo {
-	padding-top: 8%;
+	padding-top: 7%;
 	}
+
+	.vertical-center {
+	  	min-height: 5%;  /* Fallback for browsers do NOT support vh unit */
+	  	min-height: 5vh; /* These two lines are counted as one :-)       */
+
+	 	 display: flex;
+	  	align-items: center;
+	}
+
 
 	.footer {
 		padding-left: 30px;
@@ -331,12 +561,20 @@ a#navLink {
     	transform: rotate(45deg) translate(-8px, -8px) ;
 	}
 
-	.footer {
-		padding-left: 30px;
+	svg#instagram {
+	height: 15px;
 	}
 
 	#logo {
 	padding-top: 12%;
+	}
+
+	.row#footer {
+		display: none !important;
+	}
+
+	hr.footer {
+		display: none !important;
 	}
 
 	/*BASIC STYLING*/
@@ -352,8 +590,12 @@ a#navLink {
 		font-size: 14px;
 	}
 
+	h5 {
+		font-size: 12px;
+	}
+
 	a {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.row {
@@ -385,6 +627,11 @@ a#navLink {
 	#aboutOne.image5Column {
 	background-image: url('../images/DSC_0108.jpg');
 	padding-top: 90%;
+	}
+
+	/*Kanna*/
+	#kannaOne{
+		margin-top: 25px;
 	}
 }
 
