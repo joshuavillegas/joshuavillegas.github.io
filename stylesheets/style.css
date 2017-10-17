@@ -167,10 +167,6 @@ svg#instagram:hover {
 	color: black;
 }
 
-.image12Column:hover {
-	cursor: pointer;
-}
-
 div.image5Column:hover + .captionLink {
 	text-decoration: none;
 	color: black;
