@@ -262,7 +262,7 @@ div.image6Column:hover + .captionLink {
 
 
 #homepageOne.image12Column {
-	background-image: url('../images/tamago_large_02.jpg');
+	background-image: url('../images/bunretsu_large_02.jpg');
 }
 
 
@@ -294,6 +294,11 @@ div.image6Column:hover + .captionLink {
 	background-image: url('../images/equipalechair_1.png');
 }
 
+#homepageSix.image12Column {
+	background-image: url('../images/tamago_large_02.jpg');
+	margin-top: 35px;
+}
+
 
 /*DESIGNS*/
 
@@ -302,28 +307,28 @@ div.image6Column:hover + .captionLink {
 }
 
 #designsTwo {
-	background-image: url('../images/carpenter_large_01.jpg');
+	background-image: url('../images/bunretsu_large_02.jpg');
 }
 
 #designsThree {
-	background-image: url('../images/korean_large_01.jpg');
+	background-image: url('../images/carpenter_large_01.jpg');
 }
 
 #designsFour {
-	background-image: url('../images/stacking_large_02.jpg');
+	background-image: url('../images/korean_large_01.jpg');
 }
 
 #designsFive {
+	background-image: url('../images/stacking_large_02.jpg');
+}
+
+#designsSix {
 	background-image: url('../images/tamago_large_02.jpg');
 }
 
 .designCaptionLink {
 	padding-top: 25px;
 	padding-left: 0px;
-}
-
-#designsSix {
-	background-image: url('../images/diningtable_2.png');
 }
 
 #designsSeven {
@@ -479,6 +484,28 @@ div.image6Column:hover + .captionLink {
 
 #kannaFour {
 	background-image: url('../images/tools_small_02.jpg');
+}
+
+/*BUNRETSU*/
+
+#bunretsuOne {
+	background-image: url('../images/bunretsu_large_02.jpg');
+}
+
+#bunretsuTwo {
+	background-image: url('../images/bunretsu_small_01.jpg');
+}
+
+#bunretsuThree {
+	background-image: url('../images/bunretsu_large_01.jpg');
+}
+
+#bunretsuFour {
+	background-image: url('../images/bunretsu_small_02.jpg');
+}
+
+#bunretsuFive {
+	background-image: url('../images/bunretsu_small_03.jpg');
 }
 
 @media screen and (min-width: 600px) and (max-width: 800px) {
